@@ -14,5 +14,5 @@ export default function RenderLists() {
     </li>
   ));
 
-  return <ul>{listItems}</ul>;
+  return <ul>{listItems}</ul>
 }
