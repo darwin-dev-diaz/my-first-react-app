@@ -4,7 +4,7 @@ import { getImageURL } from "./util";
 export default function RenderLists() {
   const chemists = people.filter((person) => person.profession === "chemist");
   const listItems = chemists.map((person) => (
-    <li>
+    <li key={person.id}>
       <img src={getImageURL(person)} alt={person.name} />
       <p>
         <b>{person.name}</b>
