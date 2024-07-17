@@ -8,10 +8,13 @@ import ReactDOM from 'react-dom/client'
 // import PackingList from './Condition.jsx'
 // import RenderLists from './RenderLists.jsx'
 // import App from './PassingData.jsx'
-import Gallery from './LearningState'
+// import Gallery from './LearningState'
+// import CustomInput from './CustomInput';
+import Person from './Person';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Gallery />
-  </React.StrictMode>,
-)
+    <Person />
+  </React.StrictMode>
+);
