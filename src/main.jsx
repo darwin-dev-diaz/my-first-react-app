@@ -10,11 +10,14 @@ import ReactDOM from 'react-dom/client'
 // import App from './PassingData.jsx'
 // import Gallery from './LearningState'
 // import CustomInput from './CustomInput';
-import Person from './Person';
+// import Person from './Person';
+// import Clock from './Clock';
+// import ClassApp from './ClassApp';
+import Image from './TestFetch';
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Person />
+    <Image/>
   </React.StrictMode>
 );
